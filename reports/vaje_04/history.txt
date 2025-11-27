@@ -1,0 +1,241 @@
+    1  q
+    2  exit
+    3  ls
+    4  cd
+    5  ls
+    6  ls -a
+    7  tree
+    8  ls -l
+    9  main ls
+   10  man ls
+   11  ll -h
+   12  ll --help
+   13  mkdir test
+   14  mkdir test/a
+   15  rm test
+   16  rm test/a
+   17  rm -r test/a
+   18  rm test/
+   19  rm -r test
+   20  tail -f /var/log/auth.log
+   21  ls /var/log/
+   22  cd /var/log/journal/
+   23  ls
+   24  ll
+   25  ls -a
+   26  cd ..
+   27  ls
+   28  tail dpkg.log 
+   29  cat dpkg.log 
+   30  cd ..
+   31  cd
+   32  find /home/ -name *.txt
+   33  find /home/ -name "*.txt"
+   34  git
+   35  ls -a
+   36  cp /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   37  cp -r /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   38  ls
+   39  ls -a
+   40  cd .ssh/
+   41  ls
+   42  cd ..
+   43  mkdir KibernetskaVarnost
+   44  cd KibernetskaVarnost/
+   45  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   46  cd
+   47  cd .ssh/
+   48  ls
+   49  ll
+   50  cd ..
+   51  chmod 700 ~/.ssh
+   52  cd KibernetskaVarnost/
+   53  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   54  chmod 600 ~/.ssh/id_ed25519
+   55  chmod 600 ~/.ssh/id_rsa
+   56  chmod 644 ~/.ssh/id_ed25519.pub
+   57  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   58  cd KV-Vaje/
+   59  code .
+   60  sudo visudo
+   61  passwd
+   62  sudo service ssh start
+   63  sudo apt update
+   64  ssh
+   65  ssh service
+   66  sudo service ssh --help
+   67  sudo service ssh --status-all
+   68  sudo service ssh stop
+   69  ssh 56yeGJwgQKBpTRVbj3P84g3zE@lon1.tmate.io
+   70  history
+   71  mkdir --help
+   72  cd
+   73  ll
+   74  mkdir reports
+   75  touch reports/lab00.md
+   76  history
+   77  git commit -a 
+   78  git config --global zupanc.beno@gmail.com
+   79  git config --global user.email zupanc.beno@gmail.com
+   80  git config --global user.name "Zvmcevap"
+   81  git commit -a 
+   82  git commit -a .
+   83  git commit .
+   84  git add
+   85  git add .
+   86  git commit 
+   87  git status
+   88  sudo service ssh start
+   89  sudo apt update
+   90  sudo apt install tmate
+   91  tmate
+   92  history
+   93  touch vaja00.sh
+   94  vi vaja00.sh 
+   95  bash vaja00.sh 
+   96  vi vaja00.sh 
+   97  bash vaja00.sh 
+   98  vi vaja00.sh 
+   99  mv vaja00.sh reports/
+  100  mkdir lab00
+  101  cd reports/
+  102  mkdir lab00
+  103  mv lab00.md lab00
+  104  mv vaja00.sh lab00/
+  105  cd lab00/
+  106  bash vaja00.sh 
+  107  history
+  108  uname -a
+  109  man uname 
+  110  uname --help
+  111  uname -s
+  112  cd ..
+  113  git add .
+  114  git commit -m vaje00
+  115  git status
+  116  git push origin main 
+  117  clear
+  118  sudo apt install name-that-hash
+  119  nth -t ef487f75307f96954d3bb132e5f4b035
+  120  nth -t ef487f75307f96954d3bb132e5f4b035 > nth_info.txt
+  121  ls
+  122  mv nth_info.txt vaje_01/
+  123  cd vaje_01/
+  124  ls
+  125  cat dnsenum_google_info.txt 
+  126  sherlock
+  127  cd ..
+  128  mkdir vaje_sherlock
+  129  git clone https://github.com/sherlock-project/sherlock.git
+  130  cd sherlock/
+  131  ls
+  132  pip install .
+  133  sudo apt install python3-pip
+  134  ls
+  135  pip install .
+  136  apt install python3-sherlock-project
+  137  pip install sherlock-project
+  138  cd ..
+  139  ls
+  140  cd vaje_sherlock/
+  141  ls
+  142  cd ..
+  143  cd sherlock/
+  144  ls
+  145  cd sherlock_project/
+  146  ls
+  147  cd ..
+  148  sudo apt install pip
+  149  pip install sherlock-project
+  150  sudo apt install python3-pip
+  151  sudo apt install python3-sherlock-project
+  152  pip3 install sherlock-project
+  153  sherlock
+  154  sudo apt install sherlock
+  155  which sherlock
+  156  sherlock benozupanc
+  157  sherlock benozupanc --json export
+  158  sherlock benozupanc --csv
+  159  ls
+  160  cat benozupanc.csv 
+  161  ls
+  162  cp benozupanc.csv /home/beno/vaje_sherlock/
+  163  cd ..
+  164  mkdir maigret
+  165  cd maigret/
+  166  pip install maigret
+  167  pip install python3-maigret
+  168  maigret
+  169  pip install maigret --break-system-package
+  170  maigret
+  171  maigret zvmcevap
+  172  maigret zupancb
+  173  maigret --version
+  174  ls
+  175  cd reports/
+  176  ls
+  177  cd ..
+  178  ls
+  179  ls -a
+  180  ls -a reports/
+  181  maigret -h
+  182  maigret -P
+  183  maigret -P benozupanc
+  184  cp reports/report_benozupanc.pdf /mnt/c/Users/Beno/Desktop/
+  185  exiftool
+  186  sudo apt install libimage-exiftool-perl
+  187  exiftool
+  188  man exiftool
+  189  sudo apt install man-db
+  190  man exiftool
+  191  clear
+  192  cd ..
+  193  mkdir vaje_04
+  194  cd vaje_04/
+  195  git clone exif-samples
+  196  https://github.com/ianare/exif-samples.git
+  197  git clone https://github.com/ianare/exif-samples.git
+  198  cd exif-samples/
+  199  ls
+  200  cd jpg/
+  201  ls
+  202  cp Olympus_C8080WZ.jpg /mnt/c/Users/Beno/Desktop/
+  203  exiftool long_description.jpg 
+  204  exiftool long_description.jpg PaintTool_sample.jpg 
+  205  exiftool Canon_40D.jpg 
+  206  ls
+  207  cd ..
+  208  ls
+  209  ls dump 
+  210  cat dump 
+  211  ls
+  212  cd tiff/
+  213  ls
+  214  cd ..
+  215  cd jpg/
+  216  ls
+  217  cp -r mobile /mnt/c/Users/Beno/Desktop/
+  218  cd mobile/
+  219  ls
+  220* exiftool HMD_Nokia_8.3_5G_hdr.jpg
+  221  exiftool -h
+  222  man exiftool 
+  223  exiftool -all=
+  224  exiftool -all
+  225  exiftool -all=jolla.jpg 
+  226  exiftool -all= jolla.jpg 
+  227  exiftool jolla.jpg
+  228  exiftool jolla.jpg_original 
+  229  cd ..
+  230  ls
+  231  cp /mnt/c/Users/Beno/Desktop/doggo.jpg .
+  232  exiftool doggo.jpg 
+  233  exiftool doggo.jpg | grep location
+  234  exiftool doggo.jpg | grep loc
+  235  exiftool doggo.jpg | grep geo
+  236  exiftool doggo.jpg 
+  237  exiftool doggo.jpg | grep gps
+  238  exiftool doggo.jpg | grep lattitude
+  239  exiftool doggo.jpg | grep long
+  240  history 
+  241  history > history.txt

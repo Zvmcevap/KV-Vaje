@@ -1,0 +1,10 @@
+16:43:10.576771 IP DESKTOP-EVF334G.mshome.net.51400 > 239.255.255.250.1900: UDP, length 170
+16:43:11.297839 IP 172.25.49.143.34799 > DESKTOP-EVF334G.mshome.net.domain: 14295+ PTR? 250.255.255.239.in-addr.arpa. (46)
+16:43:11.299291 IP DESKTOP-EVF334G.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:11.299511 IP6 DESKTOP-EVF334G.mdns > ff02::fb.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:11.312240 IP DESKTOP-EVF334G.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:11.312302 IP6 DESKTOP-EVF334G.mdns > ff02::fb.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:11.583207 IP DESKTOP-EVF334G.mshome.net.51400 > 239.255.255.250.1900: UDP, length 170
+16:43:12.303845 IP DESKTOP-EVF334G.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:12.304079 IP6 DESKTOP-EVF334G.mdns > ff02::fb.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+16:43:12.304194 IP DESKTOP-EVF334G.mshome.net.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)

@@ -1,0 +1,18 @@
+
+lbd - load balancing detector 0.4 - Checks if a given domain uses load-balancing.
+                                    Written by Stefan Behte (http://ge.mine.nu)
+                                    Proof-of-concept! Might give false positives.
+
+Checking for DNS-Loadbalancing: NOT FOUND
+Checking for HTTP-Loadbalancing [Server]: 
+ gws
+ NOT FOUND
+
+Checking for HTTP-Loadbalancing [Date]: 15:54:55, 15:54:56, 15:54:56, 15:54:56, 15:54:57, 15:54:57, 15:54:57, 15:54:58, 15:54:58, 15:54:59, 15:54:59, 15:54:59, 15:54:59, 15:55:00, 15:55:00, 15:55:00, 15:55:01, 15:55:01, 15:55:01, 15:55:02, 15:55:02, 15:55:02, 15:55:02, 15:55:03, 15:55:03, 15:55:03, 15:55:04, 15:55:04, 15:55:04, 15:55:05, 15:55:05, 15:55:05, 15:55:06, 15:55:06, 15:55:06, 15:55:07, 15:55:07, 15:55:08, 15:55:09, 15:55:09, 15:55:09, 15:55:10, 15:55:10, 15:55:11, 15:55:11, 15:55:11, 15:55:11, 15:55:12, 15:55:12, 15:55:13, NOT FOUND
+
+Checking for HTTP-Loadbalancing [Diff]: FOUND
+< Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-2Li4kPjGhCElTN1GdOH_sQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+> Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-BhNuodoVODJZq333NCX7wg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+
+google.com does Load-balancing. Found via Methods: HTTP[Diff]
+

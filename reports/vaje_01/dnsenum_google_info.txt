@@ -1,0 +1,130 @@
+dnsenum VERSION:1.3.1
+[1;34m
+-----   google.com   -----
+[0m[1;31m
+
+Host's addresses:
+__________________
+
+[0mgoogle.com.                              0        IN    A        216.58.204.142
+[1;31m
+
+Name Servers:
+______________
+
+[0mns3.google.com.                          0        IN    A        216.239.36.10
+ns1.google.com.                          0        IN    A        216.239.32.10
+ns4.google.com.                          0        IN    A        216.239.38.10
+ns2.google.com.                          0        IN    A        216.239.34.10
+[1;31m
+
+Mail (MX) Servers:
+___________________
+
+[0msmtp.google.com.                         0        IN    A        108.177.127.26
+smtp.google.com.                         0        IN    A        108.177.119.26
+smtp.google.com.                         0        IN    A        108.177.119.27
+smtp.google.com.                         0        IN    A        108.177.96.27
+smtp.google.com.                         0        IN    A        108.177.96.26
+[1;31m
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+[0m
+Trying Zone Transfer for google.com on ns3.google.com ... 
+
+Trying Zone Transfer for google.com on ns1.google.com ... 
+
+Trying Zone Transfer for google.com on ns4.google.com ... 
+
+Trying Zone Transfer for google.com on ns2.google.com ... 
+[1;31m
+
+Brute forcing with /usr/share/dnsenum/dns.txt:
+_______________________________________________
+
+[0mabout.google.com.                        0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+accounts.google.com.                     0        IN    A        108.177.127.84
+admin.google.com.                        0        IN    A        216.58.204.142
+ads.google.com.                          0        IN    A        142.250.180.174
+america.google.com.                      0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+ap.google.com.                           0        IN    CNAME    www2.l.google.com.
+www2.l.google.com.                       0        IN    A        192.178.202.99
+www2.l.google.com.                       0        IN    A        192.178.202.103
+www2.l.google.com.                       0        IN    A        192.178.202.104
+www2.l.google.com.                       0        IN    A        192.178.202.105
+www2.l.google.com.                       0        IN    A        192.178.202.106
+www2.l.google.com.                       0        IN    A        192.178.202.147
+apps.google.com.                         0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+archive.google.com.                      0        IN    A        216.58.204.142
+asia.google.com.                         0        IN    A        142.250.180.132
+blog.google.com.                         0        IN    CNAME    www.blogger.com.
+www.blogger.com.                         0        IN    CNAME    blogger.l.google.com.
+blogger.l.google.com.                    0        IN    A        216.58.205.41
+channel.google.com.                      0        IN    A        216.58.204.238
+d.google.com.                            0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+directory.google.com.                    0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+dns.google.com.                          0        IN    A           8.8.8.8
+dns.google.com.                          0        IN    A           8.8.4.4
+elections.google.com.                    0        IN    A        216.58.205.46
+environment.google.com.                  0        IN    A        216.58.204.238
+europe.google.com.                       0        IN    A        142.251.140.100
+finance.google.com.                      0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        192.178.203.113
+www3.l.google.com.                       0        IN    A        192.178.203.100
+www3.l.google.com.                       0        IN    A        192.178.203.139
+www3.l.google.com.                       0        IN    A        192.178.203.102
+www3.l.google.com.                       0        IN    A        192.178.203.101
+www3.l.google.com.                       0        IN    A        192.178.203.138
+health.google.com.                       0        IN    A        216.58.204.238
+issuetracker.google.com.                 0        IN    A        142.250.181.78
+jobs.google.com.                         0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.251.143.206
+mail.google.com.                         0        IN    A        216.58.204.133
+map.google.com.                          0        IN    CNAME    maps.google.com.
+maps.google.com.                         0        IN    A        142.251.209.46
+mobile.google.com.                       0        IN    CNAME    mobile.l.google.com.
+mobile.l.google.com.                     0        IN    A        216.58.205.43
+news.google.com.                         0        IN    A        142.250.180.174
+ns.google.com.                           0        IN    A        216.239.32.10
+ns1.google.com.                          0        IN    A        216.239.32.10
+ns2.google.com.                          0        IN    A        216.239.34.10
+ns3.google.com.                          0        IN    A        216.239.36.10
+print.google.com.                        0        IN    CNAME    www2.l.google.com.
+www2.l.google.com.                       0        IN    A        192.178.203.147
+www2.l.google.com.                       0        IN    A        192.178.203.104
+www2.l.google.com.                       0        IN    A        192.178.203.103
+www2.l.google.com.                       0        IN    A        192.178.203.105
+www2.l.google.com.                       0        IN    A        192.178.203.106
+www2.l.google.com.                       0        IN    A        192.178.203.99
+privacy.google.com.                      0        IN    A        142.251.140.110
+search.google.com.                       0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        142.250.180.174
+shop.google.com.                         0        IN    A        172.217.218.92
+smtp.google.com.                         0        IN    A        108.177.127.26
+smtp.google.com.                         0        IN    A        108.177.119.26
+smtp.google.com.                         0        IN    A        108.177.119.27
+smtp.google.com.                         0        IN    A        108.177.96.27
+smtp.google.com.                         0        IN    A        108.177.96.26
+survey.google.com.                       0        IN    A        216.58.204.238
+trends.google.com.                       0        IN    CNAME    www2.l.google.com.
+www2.l.google.com.                       0        IN    A        192.178.202.99
+www2.l.google.com.                       0        IN    A        192.178.202.106
+www2.l.google.com.                       0        IN    A        192.178.202.103
+www2.l.google.com.                       0        IN    A        192.178.202.147
+www2.l.google.com.                       0        IN    A        192.178.202.105
+www2.l.google.com.                       0        IN    A        192.178.202.104
+upload.google.com.                       0        IN    CNAME    large-uploads.l.google.com.
+large-uploads.l.google.com.              0        IN    A        142.250.180.143
+vpn.google.com.                          0        IN    A        64.9.224.70
+vpn.google.com.                          0        IN    A        64.9.224.69
+vpn.google.com.                          0        IN    A        64.9.224.68
+w.google.com.                            0        IN    CNAME    www3.l.google.com.
+www3.l.google.com.                       0        IN    A        192.178.203.101
+w
