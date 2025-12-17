@@ -1,0 +1,939 @@
+    1  q
+    2  exit
+    3  ls
+    4  cd
+    5  ls
+    6  ls -a
+    7  tree
+    8  ls -l
+    9  main ls
+   10  man ls
+   11  ll -h
+   12  ll --help
+   13  mkdir test
+   14  mkdir test/a
+   15  rm test
+   16  rm test/a
+   17  rm -r test/a
+   18  rm test/
+   19  rm -r test
+   20  tail -f /var/log/auth.log
+   21  ls /var/log/
+   22  cd /var/log/journal/
+   23  ls
+   24  ll
+   25  ls -a
+   26  cd ..
+   27  ls
+   28  tail dpkg.log 
+   29  cat dpkg.log 
+   30  cd ..
+   31  cd
+   32  find /home/ -name *.txt
+   33  find /home/ -name "*.txt"
+   34  git
+   35  ls -a
+   36  cp /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   37  cp -r /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   38  ls
+   39  ls -a
+   40  cd .ssh/
+   41  ls
+   42  cd ..
+   43  mkdir KibernetskaVarnost
+   44  cd KibernetskaVarnost/
+   45  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   46  cd
+   47  cd .ssh/
+   48  ls
+   49  ll
+   50  cd ..
+   51  chmod 700 ~/.ssh
+   52  cd KibernetskaVarnost/
+   53  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   54  chmod 600 ~/.ssh/id_ed25519
+   55  chmod 600 ~/.ssh/id_rsa
+   56  chmod 644 ~/.ssh/id_ed25519.pub
+   57  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   58  cd KV-Vaje/
+   59  code .
+   60  sudo visudo
+   61  passwd
+   62  sudo service ssh start
+   63  sudo apt update
+   64  ssh
+   65  ssh service
+   66  sudo service ssh --help
+   67  sudo service ssh --status-all
+   68  sudo service ssh stop
+   69  ssh 56yeGJwgQKBpTRVbj3P84g3zE@lon1.tmate.io
+   70  history
+   71  mkdir --help
+   72  cd
+   73  ll
+   74  mkdir reports
+   75  touch reports/lab00.md
+   76  history
+   77  git commit -a 
+   78  git config --global zupanc.beno@gmail.com
+   79  git config --global user.email zupanc.beno@gmail.com
+   80  git config --global user.name "Zvmcevap"
+   81  git commit -a 
+   82  git commit -a .
+   83  git commit .
+   84  git add
+   85  git add .
+   86  git commit 
+   87  git status
+   88  sudo service ssh start
+   89  sudo apt update
+   90  sudo apt install tmate
+   91  tmate
+   92  history
+   93  touch vaja00.sh
+   94  vi vaja00.sh 
+   95  bash vaja00.sh 
+   96  vi vaja00.sh 
+   97  bash vaja00.sh 
+   98  vi vaja00.sh 
+   99  mv vaja00.sh reports/
+  100  mkdir lab00
+  101  cd reports/
+  102  mkdir lab00
+  103  mv lab00.md lab00
+  104  mv vaja00.sh lab00/
+  105  cd lab00/
+  106  bash vaja00.sh 
+  107  history
+  108  uname -a
+  109  man uname 
+  110  uname --help
+  111  uname -s
+  112  cd ..
+  113  git add .
+  114  git commit -m vaje00
+  115  git status
+  116  git push origin main 
+  117  clear
+  118  cd vaje_01/
+  119  history
+  120  nmap -p 1-65535 -T4  192.168.1.1
+  121  lbd
+  122  sudo apt install lbd
+  123  lbd google.com
+  124  lbd google.com > lbd_google.txt
+  125  cat lbd_google.txt 
+  126  sudo apt install name-that-hash
+  127  nth -t ef487f75307f96954d3bb132e5f4b035
+  128  nth -t ef487f75307f96954d3bb132e5f4b035 > nth_info.txt
+  129  ls
+  130  mv nth_info.txt vaje_01/
+  131  cd vaje_01/
+  132  ls
+  133  cat dnsenum_google_info.txt 
+  134  sherlock
+  135  cd ..
+  136  mkdir vaje_sherlock
+  137  git clone https://github.com/sherlock-project/sherlock.git
+  138  cd sherlock/
+  139  ls
+  140  pip install .
+  141  sudo apt install python3-pip
+  142  ls
+  143  pip install .
+  144  apt install python3-sherlock-project
+  145  pip install sherlock-project
+  146  cd ..
+  147  ls
+  148  cd vaje_sherlock/
+  149  ls
+  150  cd ..
+  151  cd sherlock/
+  152  ls
+  153  cd sherlock_project/
+  154  ls
+  155  cd ..
+  156  sudo apt install pip
+  157  pip install sherlock-project
+  158  sudo apt install python3-pip
+  159  sudo apt install python3-sherlock-project
+  160  pip3 install sherlock-project
+  161  sherlock
+  162  sudo apt install sherlock
+  163  which sherlock
+  164  sherlock benozupanc
+  165  sherlock benozupanc --json export
+  166  sherlock benozupanc --csv
+  167  ls
+  168  cat benozupanc.csv 
+  169  ls
+  170  cp benozupanc.csv /home/beno/vaje_sherlock/
+  171  cd ..
+  172  mkdir maigret
+  173  cd maigret/
+  174  pip install maigret
+  175  pip install python3-maigret
+  176  maigret
+  177  pip install maigret --break-system-package
+  178  maigret
+  179  maigret zvmcevap
+  180  maigret zupancb
+  181  maigret --version
+  182  ls
+  183  cd reports/
+  184  ls
+  185  cd ..
+  186  ls
+  187  ls -a
+  188  ls -a reports/
+  189  maigret -h
+  190  maigret -P
+  191  maigret -P benozupanc
+  192  cp reports/report_benozupanc.pdf /mnt/c/Users/Beno/Desktop/
+  193  exiftool
+  194  sudo apt install libimage-exiftool-perl
+  195  exiftool
+  196  man exiftool
+  197  sudo apt install man-db
+  198  man exiftool
+  199  clear
+  200  cd ..
+  201  mkdir vaje_04
+  202  cd vaje_04/
+  203  git clone exif-samples
+  204  https://github.com/ianare/exif-samples.git
+  205  git clone https://github.com/ianare/exif-samples.git
+  206  cd exif-samples/
+  207  ls
+  208  cd jpg/
+  209  ls
+  210  cp Olympus_C8080WZ.jpg /mnt/c/Users/Beno/Desktop/
+  211  exiftool long_description.jpg 
+  212  exiftool long_description.jpg PaintTool_sample.jpg 
+  213  exiftool Canon_40D.jpg 
+  214  ls
+  215  cd ..
+  216  ls
+  217  ls dump 
+  218  cat dump 
+  219  ls
+  220  cd tiff/
+  221  ls
+  222  cd ..
+  223  cd jpg/
+  224  ls
+  225  cp -r mobile /mnt/c/Users/Beno/Desktop/
+  226  cd mobile/
+  227  ls
+  228  exiftool HMD_Nokia_8.3_5G_hdr.jpg
+  229  exiftool -h
+  230  man exiftool 
+  231  exiftool -all=
+  232  exiftool -all
+  233  exiftool -all=jolla.jpg 
+  234  exiftool -all= jolla.jpg 
+  235  exiftool jolla.jpg
+  236  exiftool jolla.jpg_original 
+  237  cd ..
+  238  ls
+  239  cp /mnt/c/Users/Beno/Desktop/doggo.jpg .
+  240  exiftool doggo.jpg 
+  241  exiftool doggo.jpg | grep location
+  242  exiftool doggo.jpg | grep loc
+  243  exiftool doggo.jpg | grep geo
+  244  exiftool doggo.jpg 
+  245  exiftool doggo.jpg | grep gps
+  246  exiftool doggo.jpg | grep lattitude
+  247  exiftool doggo.jpg | grep long
+  248  history 
+  249  history > history.txt
+  250  cd ..
+  251  ls
+  252  ls KibernetskaVarnost/
+  253  ls KibernetskaVarnost/KV-Vaje/
+  254  cd KibernetskaVarnost/KV-Vaje/reports/
+  255  cp -r /home/beno/vaje_01/ .
+  256  cp -r /home/beno/vaje_04/ .
+  257  cp -r /home/beno/sherlock/ .
+  258  cp -r /home/beno/maigret/ .
+  259  ls
+  260  cd ..
+  261  ls
+  262  git push
+  263  git add -
+  264  git add .
+  265  git commit -m 'vaje drugi dan'
+  266  git push
+  267  wireshark
+  268  sudo apt install wireshark
+  269  apt update
+  270  sudo apt update
+  271  apt list --upgradable
+  272  sudo apt upgrade
+  273  clear
+  274  whoami
+  275  who
+  276  hostnamectl 
+  277  sudo hostnamectl
+  278  clear
+  279  bot
+  280  top
+  281  uname -a
+  282  uname
+  283  df -h
+  284  ip a
+  285  ip
+  286  ip address
+  287  ls
+  288  pwd
+  289  mkdir vaje_01
+  290  cd vaje_01/
+  291  wget https://gist.githubusercontent.com/EdwardRayl/3436572afde8ce9e3faf5b7b95356a49/raw/6b25895fce480713560829dec31ac8220ffe5272/gists.txt
+  292  cat gists.txt 
+  293  hean gists.txt 
+  294  head gists.txt 
+  295  head -n 10 gists.txt 
+  296  sudo apt install 7zip
+  297  which nmap
+  298  7zip
+  299  nmap
+  300  sudo apt install htop
+  301  htop
+  302  7zip
+  303  which 7zip
+  304  sudo apt install 7zip
+  305  which 7zip
+  306  which 7z
+  307  which nmap
+  308  nmap
+  309  sudo apt install nmap
+  310  which nmap
+  311  which john
+  312  sudo apt install john
+  313  htop
+  314  which traceroot
+  315  sudo apt install traceroot -y
+  316  which traceroute
+  317  sudo apt install traceroute -y
+  318  traceroute google.com
+  319  traceroute fis.unm.si
+  320  btop
+  321  sudo apt install btop
+  322  btop
+  323  which strings
+  324  man which
+  325  which --help
+  326  which
+  327  which strings
+  328  strings
+  329  sudo apt install binutils
+  330  strings /bin/ls
+  331  clear
+  332  strings /bin/ls
+  333  strings /bin/ls | head
+  334  which john
+  335  strings /usr/sbin/john 
+  336  nload
+  337  sudo apt install nload
+  338  nload
+  339  clear
+  340  sudo apt install speedtest-cli -y
+  341  speedtest-cli 
+  342  sudo tcpdump -c 10
+  343  sudo tcpdump -c 10 > tcpdump.cap
+  344  history > history.txt
+  345  cat history.txt 
+  346  sudo tcpdump -c 10 > tcpdump.cap
+  347  cat tcpdump.cap 
+  348  nmap -O 192.168.226.2
+  349  nmap -O 192.168.1.101
+  350  nmap -O 192.168.226.2
+  351  ip a
+  352  nmap -O 172.25.63.255
+  353  nmap -O 192.168.226.2
+  354  nmap -p 1-65535 -T4  192.168.1.1
+  355  nmap -O 172.25.49.143
+  356  nmap -p 1-65535 -T4  172.25.49.143
+  357  nmap -sS -T4 172.25.49.143
+  358  searchsploit 
+  359  sudo apt install exploitdb
+  360  searchspoit wordpress ftp
+  361  searchsploit wordpress ftp
+  362  searchsploit moodle
+  363  dnsenum google.com
+  364  sudo apt install dnsenum
+  365  dnsenum google.com
+  366  dnsenum google.com > dnsenum_google_info.txt
+  367  ls
+  368  mkdir vaje_07 && cd vaje_07
+  369  gpg
+  370  sudo apt install gpg
+  371  gpg
+  372  gpg -h
+  373  gpg -K
+  374  gpg --generate-key
+  375  gpg -K
+  376  gpg --list-keys
+  377  gpg --list-secret-keys
+  378  sudo apt install gnupg
+  379  sudo apt update
+  380  apt list --upgradable
+  381  gpg --version
+  382  gpg --generate-full-key
+  383  gpg --full-generate-key
+  384  gpg --list-keys
+  385  gpg --armor --export zupanc.beno@gmail.com > beno_pubkey.asc
+  386  ls
+  387  cat beno_pubkey.asc 
+  388  cd ..
+  389  mv -r vaje_07 vaje_14
+  390  mv vaje_07 vaje_14
+  391  cd vaje_14/
+  392  ls
+  393  cat robikv_pubkey.asc
+  394  clear
+  395  ls
+  396  rm "robikv_pubkey.asc:Zone.Identifier" 
+  397  ls
+  398  cat robikv_pubkey.asc 
+  399  clear
+  400  echo "To: haha@hihi.hoho
+From: zupanc.beno@gmail.com
+Data: $(date)
+Secret message: Very secret" > message.txt
+  401  cat message.txt 
+  402  echo aa >> history.txt
+  403  cat history.txt 
+  404  echo bbb >> history.txt 
+  405  echo history.txt 
+  406  cat history.txt 
+  407  rm history.txt 
+  408  history > history.txt
+  409  gpg --list-keys
+  410  gpg --encrypt --armor --recipient Beno message.txt 
+  411  ls
+  412  cat message.txt.asc 
+  413  gpg --decrypt message.txt.asc > decrypted_message.txt
+  414  cat decrypted_message.txt 
+  415  gpg --clearsign message.txt
+  416  cat signed_message.txt.asc 
+  417  gpg --detach-sign signed_message.txt.asc 
+  418  cat signed_message.txt.asc 
+  419  gpg --fingerprint
+  420  ls
+  421  man gpg
+  422  history > history.txt 
+  423  cd ..
+  424  mkdir vaje_14
+  425  mkdir vaje_15
+  426  cd vaje_15/
+  427  gpg -K
+  428  gpg --fingerprint Beno
+  429  gpg --full-generate-key
+  430  dasdwasda
+  431  gpg --full-generate-key
+  432  gpg --list-keys
+  433  gpg --fingerprint Bob
+  434  gpg -h
+  435  ls
+  436  gpg -K
+  437  gpg --armor --export zupanc.beno@gmail.com > bob_pubkey.asc
+  438  echo "For Bob's eyes only.." > secret.txt
+  439  cat secret.txt 
+  440  gpg --encrypt --armor --recipient Bob secret.txt 
+  441  cat secret.txt.asc 
+  442  gpg --decrypt secret.txt.asc
+  443  gpg --fingerprint Bob
+  444  gpg --encrypt --armor --recipient bob_pubkey.asc secret.txt 
+  445  clear
+  446  gpg --edit-key bob@bobo.bob 
+  447  history >> history.txt
+    1  q
+    2  exit
+    3  ls
+    4  cd
+    5  ls
+    6  ls -a
+    7  tree
+    8  ls -l
+    9  main ls
+   10  man ls
+   11  ll -h
+   12  ll --help
+   13  mkdir test
+   14  mkdir test/a
+   15  rm test
+   16  rm test/a
+   17  rm -r test/a
+   18  rm test/
+   19  rm -r test
+   20  tail -f /var/log/auth.log
+   21  ls /var/log/
+   22  cd /var/log/journal/
+   23  ls
+   24  ll
+   25  ls -a
+   26  cd ..
+   27  ls
+   28  tail dpkg.log 
+   29  cat dpkg.log 
+   30  cd ..
+   31  cd
+   32  find /home/ -name *.txt
+   33  find /home/ -name "*.txt"
+   34  git
+   35  ls -a
+   36  cp /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   37  cp -r /mnt/c/Users/Beno/Desktop/Wait/.ssh .
+   38  ls
+   39  ls -a
+   40  cd .ssh/
+   41  ls
+   42  cd ..
+   43  mkdir KibernetskaVarnost
+   44  cd KibernetskaVarnost/
+   45  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   46  cd
+   47  cd .ssh/
+   48  ls
+   49  ll
+   50  cd ..
+   51  chmod 700 ~/.ssh
+   52  cd KibernetskaVarnost/
+   53  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   54  chmod 600 ~/.ssh/id_ed25519
+   55  chmod 600 ~/.ssh/id_rsa
+   56  chmod 644 ~/.ssh/id_ed25519.pub
+   57  git clone git@github.com:Zvmcevap/KV-Vaje.git
+   58  cd KV-Vaje/
+   59  code .
+   60  sudo visudo
+   61  passwd
+   62  sudo service ssh start
+   63  sudo apt update
+   64  ssh
+   65  ssh service
+   66  sudo service ssh --help
+   67  sudo service ssh --status-all
+   68  sudo service ssh stop
+   69  ssh 56yeGJwgQKBpTRVbj3P84g3zE@lon1.tmate.io
+   70  history
+   71  mkdir --help
+   72  cd
+   73  ll
+   74  mkdir reports
+   75  touch reports/lab00.md
+   76  history
+   77  git commit -a 
+   78  git config --global zupanc.beno@gmail.com
+   79  git config --global user.email zupanc.beno@gmail.com
+   80  git config --global user.name "Zvmcevap"
+   81  git commit -a 
+   82  git commit -a .
+   83  git commit .
+   84  git add
+   85  git add .
+   86  git commit 
+   87  git status
+   88  sudo service ssh start
+   89  sudo apt update
+   90  sudo apt install tmate
+   91  tmate
+   92  history
+   93  touch vaja00.sh
+   94  vi vaja00.sh 
+   95  bash vaja00.sh 
+   96  vi vaja00.sh 
+   97  bash vaja00.sh 
+   98  vi vaja00.sh 
+   99  mv vaja00.sh reports/
+  100  mkdir lab00
+  101  cd reports/
+  102  mkdir lab00
+  103  mv lab00.md lab00
+  104  mv vaja00.sh lab00/
+  105  cd lab00/
+  106  bash vaja00.sh 
+  107  history
+  108  uname -a
+  109  man uname 
+  110  uname --help
+  111  uname -s
+  112  cd ..
+  113  git add .
+  114  git commit -m vaje00
+  115  git status
+  116  git push origin main 
+  117  clear
+  118  cd vaje_01/
+  119  history
+  120  nmap -p 1-65535 -T4  192.168.1.1
+  121  lbd
+  122  sudo apt install lbd
+  123  lbd google.com
+  124  lbd google.com > lbd_google.txt
+  125  cat lbd_google.txt 
+  126  sudo apt install name-that-hash
+  127  nth -t ef487f75307f96954d3bb132e5f4b035
+  128  nth -t ef487f75307f96954d3bb132e5f4b035 > nth_info.txt
+  129  ls
+  130  mv nth_info.txt vaje_01/
+  131  cd vaje_01/
+  132  ls
+  133  cat dnsenum_google_info.txt 
+  134  sherlock
+  135  cd ..
+  136  mkdir vaje_sherlock
+  137  git clone https://github.com/sherlock-project/sherlock.git
+  138  cd sherlock/
+  139  ls
+  140  pip install .
+  141  sudo apt install python3-pip
+  142  ls
+  143  pip install .
+  144  apt install python3-sherlock-project
+  145  pip install sherlock-project
+  146  cd ..
+  147  ls
+  148  cd vaje_sherlock/
+  149  ls
+  150  cd ..
+  151  cd sherlock/
+  152  ls
+  153  cd sherlock_project/
+  154  ls
+  155  cd ..
+  156  sudo apt install pip
+  157  pip install sherlock-project
+  158  sudo apt install python3-pip
+  159  sudo apt install python3-sherlock-project
+  160  pip3 install sherlock-project
+  161  sherlock
+  162  sudo apt install sherlock
+  163  which sherlock
+  164  sherlock benozupanc
+  165  sherlock benozupanc --json export
+  166  sherlock benozupanc --csv
+  167  ls
+  168  cat benozupanc.csv 
+  169  ls
+  170  cp benozupanc.csv /home/beno/vaje_sherlock/
+  171  cd ..
+  172  mkdir maigret
+  173  cd maigret/
+  174  pip install maigret
+  175  pip install python3-maigret
+  176  maigret
+  177  pip install maigret --break-system-package
+  178  maigret
+  179  maigret zvmcevap
+  180  maigret zupancb
+  181  maigret --version
+  182  ls
+  183  cd reports/
+  184  ls
+  185  cd ..
+  186  ls
+  187  ls -a
+  188  ls -a reports/
+  189  maigret -h
+  190  maigret -P
+  191  maigret -P benozupanc
+  192  cp reports/report_benozupanc.pdf /mnt/c/Users/Beno/Desktop/
+  193  exiftool
+  194  sudo apt install libimage-exiftool-perl
+  195  exiftool
+  196  man exiftool
+  197  sudo apt install man-db
+  198  man exiftool
+  199  clear
+  200  cd ..
+  201  mkdir vaje_04
+  202  cd vaje_04/
+  203  git clone exif-samples
+  204  https://github.com/ianare/exif-samples.git
+  205  git clone https://github.com/ianare/exif-samples.git
+  206  cd exif-samples/
+  207  ls
+  208  cd jpg/
+  209  ls
+  210  cp Olympus_C8080WZ.jpg /mnt/c/Users/Beno/Desktop/
+  211  exiftool long_description.jpg 
+  212  exiftool long_description.jpg PaintTool_sample.jpg 
+  213  exiftool Canon_40D.jpg 
+  214  ls
+  215  cd ..
+  216  ls
+  217  ls dump 
+  218  cat dump 
+  219  ls
+  220  cd tiff/
+  221  ls
+  222  cd ..
+  223  cd jpg/
+  224  ls
+  225  cp -r mobile /mnt/c/Users/Beno/Desktop/
+  226  cd mobile/
+  227  ls
+  228  exiftool HMD_Nokia_8.3_5G_hdr.jpg
+  229  exiftool -h
+  230  man exiftool 
+  231  exiftool -all=
+  232  exiftool -all
+  233  exiftool -all=jolla.jpg 
+  234  exiftool -all= jolla.jpg 
+  235  exiftool jolla.jpg
+  236  exiftool jolla.jpg_original 
+  237  cd ..
+  238  ls
+  239  cp /mnt/c/Users/Beno/Desktop/doggo.jpg .
+  240  exiftool doggo.jpg 
+  241  exiftool doggo.jpg | grep location
+  242  exiftool doggo.jpg | grep loc
+  243  exiftool doggo.jpg | grep geo
+  244  exiftool doggo.jpg 
+  245  exiftool doggo.jpg | grep gps
+  246  exiftool doggo.jpg | grep lattitude
+  247  exiftool doggo.jpg | grep long
+  248  history 
+  249  history > history.txt
+  250  cd ..
+  251  ls
+  252  ls KibernetskaVarnost/
+  253  ls KibernetskaVarnost/KV-Vaje/
+  254  cd KibernetskaVarnost/KV-Vaje/reports/
+  255  cp -r /home/beno/vaje_01/ .
+  256  cp -r /home/beno/vaje_04/ .
+  257  cp -r /home/beno/sherlock/ .
+  258  cp -r /home/beno/maigret/ .
+  259  ls
+  260  cd ..
+  261  ls
+  262  git push
+  263  git add -
+  264  git add .
+  265  git commit -m 'vaje drugi dan'
+  266  git push
+  267  wireshark
+  268  sudo apt install wireshark
+  269  apt update
+  270  sudo apt update
+  271  apt list --upgradable
+  272  sudo apt upgrade
+  273  clear
+  274  whoami
+  275  who
+  276  hostnamectl 
+  277  sudo hostnamectl
+  278  clear
+  279  bot
+  280  top
+  281  uname -a
+  282  uname
+  283  df -h
+  284  ip a
+  285  ip
+  286  ip address
+  287  ls
+  288  pwd
+  289  mkdir vaje_01
+  290  cd vaje_01/
+  291  wget https://gist.githubusercontent.com/EdwardRayl/3436572afde8ce9e3faf5b7b95356a49/raw/6b25895fce480713560829dec31ac8220ffe5272/gists.txt
+  292  cat gists.txt 
+  293  hean gists.txt 
+  294  head gists.txt 
+  295  head -n 10 gists.txt 
+  296  sudo apt install 7zip
+  297  which nmap
+  298  7zip
+  299  nmap
+  300  sudo apt install htop
+  301  htop
+  302  7zip
+  303  which 7zip
+  304  sudo apt install 7zip
+  305  which 7zip
+  306  which 7z
+  307  which nmap
+  308  nmap
+  309  sudo apt install nmap
+  310  which nmap
+  311  which john
+  312  sudo apt install john
+  313  htop
+  314  which traceroot
+  315  sudo apt install traceroot -y
+  316  which traceroute
+  317  sudo apt install traceroute -y
+  318  traceroute google.com
+  319  traceroute fis.unm.si
+  320  btop
+  321  sudo apt install btop
+  322  btop
+  323  which strings
+  324  man which
+  325  which --help
+  326  which
+  327  which strings
+  328  strings
+  329  sudo apt install binutils
+  330  strings /bin/ls
+  331  clear
+  332  strings /bin/ls
+  333  strings /bin/ls | head
+  334  which john
+  335  strings /usr/sbin/john 
+  336  nload
+  337  sudo apt install nload
+  338  nload
+  339  clear
+  340  sudo apt install speedtest-cli -y
+  341  speedtest-cli 
+  342  sudo tcpdump -c 10
+  343  sudo tcpdump -c 10 > tcpdump.cap
+  344  history > history.txt
+  345  cat history.txt 
+  346  sudo tcpdump -c 10 > tcpdump.cap
+  347  cat tcpdump.cap 
+  348  nmap -O 192.168.226.2
+  349  nmap -O 192.168.1.101
+  350  nmap -O 192.168.226.2
+  351  ip a
+  352  nmap -O 172.25.63.255
+  353  nmap -O 192.168.226.2
+  354  nmap -p 1-65535 -T4  192.168.1.1
+  355  nmap -O 172.25.49.143
+  356  nmap -p 1-65535 -T4  172.25.49.143
+  357  nmap -sS -T4 172.25.49.143
+  358  searchsploit 
+  359  sudo apt install exploitdb
+  360  searchspoit wordpress ftp
+  361  searchsploit wordpress ftp
+  362  searchsploit moodle
+  363  dnsenum google.com
+  364  sudo apt install dnsenum
+  365  dnsenum google.com
+  366  dnsenum google.com > dnsenum_google_info.txt
+  367  ls
+  368  mkdir vaje_07 && cd vaje_07
+  369  gpg
+  370  sudo apt install gpg
+  371  gpg
+  372  gpg -h
+  373  gpg -K
+  374  gpg --generate-key
+  375  gpg -K
+  376  gpg --list-keys
+  377  gpg --list-secret-keys
+  378  sudo apt install gnupg
+  379  sudo apt update
+  380  apt list --upgradable
+  381  gpg --version
+  382  gpg --generate-full-key
+  383  gpg --full-generate-key
+  384  gpg --list-keys
+  385  gpg --armor --export zupanc.beno@gmail.com > beno_pubkey.asc
+  386  ls
+  387  cat beno_pubkey.asc 
+  388  cd ..
+  389  mv -r vaje_07 vaje_14
+  390  mv vaje_07 vaje_14
+  391  cd vaje_14/
+  392  ls
+  393  cat robikv_pubkey.asc
+  394  clear
+  395  ls
+  396  rm "robikv_pubkey.asc:Zone.Identifier" 
+  397  ls
+  398  cat robikv_pubkey.asc 
+  399  clear
+  400  echo "To: haha@hihi.hoho
+From: zupanc.beno@gmail.com
+Data: $(date)
+Secret message: Very secret" > message.txt
+  401  cat message.txt 
+  402  echo aa >> history.txt
+  403  cat history.txt 
+  404  echo bbb >> history.txt 
+  405  echo history.txt 
+  406  cat history.txt 
+  407  rm history.txt 
+  408  history > history.txt
+  409  gpg --list-keys
+  410  gpg --encrypt --armor --recipient Beno message.txt 
+  411  ls
+  412  cat message.txt.asc 
+  413  gpg --decrypt message.txt.asc > decrypted_message.txt
+  414  cat decrypted_message.txt 
+  415  gpg --clearsign message.txt
+  416  cat signed_message.txt.asc 
+  417  gpg --detach-sign signed_message.txt.asc 
+  418  cat signed_message.txt.asc 
+  419  gpg --fingerprint
+  420  ls
+  421  man gpg
+  422  history > history.txt 
+  423  cd ..
+  424  mkdir vaje_14
+  425  mkdir vaje_15
+  426  cd vaje_15/
+  427  gpg -K
+  428  gpg --fingerprint Beno
+  429  gpg --full-generate-key
+  430  dasdwasda
+  431  gpg --full-generate-key
+  432  gpg --list-keys
+  433  gpg --fingerprint Bob
+  434  gpg -h
+  435  ls
+  436  gpg -K
+  437  gpg --armor --export zupanc.beno@gmail.com > bob_pubkey.asc
+  438  echo "For Bob's eyes only.." > secret.txt
+  439  cat secret.txt 
+  440  gpg --encrypt --armor --recipient Bob secret.txt 
+  441  cat secret.txt.asc 
+  442  gpg --decrypt secret.txt.asc
+  443  gpg --fingerprint Bob
+  444  gpg --encrypt --armor --recipient bob_pubkey.asc secret.txt 
+  445  clear
+  446  gpg --edit-key bob@bobo.bob 
+  447  history >> history.txt
+  448  echo "API_KEY=secret-key-123\nDB_PASSWORD=pass1234" > .env
+  449  cat .env 
+  450  nano .env
+  451  gpg --encrypt .env
+  452  gpg -r --encrypt .env
+  453  gpg --encrypt .env -r
+  454  ls
+  455  ll
+  456  ls -a
+  457  cat .env
+  458  mv .env secrets.env
+  459  man gpg
+  460  man gpg | grep sym
+  461  ls
+  462  gpg -c secrets.env 
+  463  ls
+  464  hexdump secrets.env.gpg 
+  465  hexdump secrets.env
+  466  gpg secrets.env.gpg 
+  467  cat secrets.env.decrypted 
+  468  gpg -d secrets.env.gpg | grep API
+  469  gpg --full-generate-key
+  470  gpg --encrypt --recipient app@fis.unm.si > secrets.env.asymetric
+  471  gpg --encrypt --recipient app@fis.unm.si secrets.env > secrets.env.asymetric
+  472  ls
+  473  cat secrets.env.asymetric 
+  474  rm secrets.env.asymetric 
+  475  diff secrets.env.gpg secrets.env.asy.gpg 
+  476  gpg -d secrets.env.asy.gpg 
+  477  source | gpg -d secrets.env.asy.gpg 
+  478  set | gpg -d secrets.env.asy.gpg 
+  479  echo $API_KEY
+  480  source secrets.env
+  481  echo $API_KEY
+  482  unset SECRET_KEY
+  483  unset API_KEY
+  484  echo $API_KEY
+  485  unset DB_PASSWORD
+  486  history >> history.txt 
